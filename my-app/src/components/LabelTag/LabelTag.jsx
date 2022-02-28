@@ -7,6 +7,9 @@ function LabelTag(){
                 <img src="images/Dot.svg" alt="label"/>
                 <span>label tag</span>
             </div>
+            <div className={css.subtitle}>
+                Diam augue tellus ut id volutpat malesuada sed est ut.
+            </div>
         </div>
     )
 }

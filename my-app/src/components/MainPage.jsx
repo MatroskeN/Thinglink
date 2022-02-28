@@ -1,6 +1,8 @@
 import css from './MainPage.module.scss';
 import Slider from "./Slider/Slider";
 import LabelTag from "./LabelTag/LabelTag";
+import TransitionTag from "./TransitionTag/TransitionTag";
+import EmbedTag from "./EmbedTag/EmbedTag";
 
 function MainPage(){
     return(
@@ -26,6 +28,8 @@ function MainPage(){
                     </button>
                 </div>
                 <LabelTag />
+                <TransitionTag />
+                <EmbedTag />
             </div>
         </div>
     )

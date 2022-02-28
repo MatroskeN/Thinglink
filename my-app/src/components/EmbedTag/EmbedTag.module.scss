@@ -1,0 +1,20 @@
+.root{
+  max-width: 770px;
+  width: 100%;
+  padding: 32px 0;
+  margin: 0 auto;
+  border-bottom: rgba(0, 0, 0, 0.1) 2px solid;
+  .title{
+    display: flex;
+    align-items: center;
+    span{
+      font-family: SF Pro Display;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 32px;
+      color: #000000;
+      margin-left: 8px;
+    }
+  }
+}

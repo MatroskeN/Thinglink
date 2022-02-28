@@ -1,8 +1,10 @@
 .root{
-  width: 770px;
+  max-width: 770px;
+  width: 100%;
   margin: 0 auto;
   border-top: rgba(0, 0, 0, 0.1) 2px solid;
-  padding-top: 32px;
+  border-bottom: rgba(0, 0, 0, 0.1) 2px solid;
+  padding: 32px 0;
   .title{
     display: flex;
     align-items: center;
@@ -36,5 +38,14 @@
         opacity: 1;
       }
     }
+  }
+  .subtitle{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 8px;
   }
 }
