@@ -1,0 +1,48 @@
+.root{
+  padding: 0 80px 16px;
+  .title{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    color: #000000;
+  }
+  .subtitle{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  .tag{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    span{
+      font-family: SF Pro Display;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 32px;
+      color: #000000;
+      margin-left: 8px;
+    }
+  }
+  .slider{
+    margin-top: 16px;
+    .slide{
+      width: 770px;
+      height: 433px;
+    }
+    .prev{
+
+    }
+  }
+}
+@media(max-width: 910px){
+  .root{
+    padding: 0 20px 16px;
+  }
+}
