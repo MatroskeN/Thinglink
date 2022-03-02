@@ -35,7 +35,7 @@ export default class MainPage extends React.Component{
                                     </div>
                                 );
                                 case "label": return (
-                                    <LabelTag label={item.data.label} />
+                                    <LabelTag label={item.data.text} />
                                 );
                                 case "transition" : return (
                                     <TransitionTag link={item.data.text} />
