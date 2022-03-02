@@ -8,17 +8,17 @@ import ExampleTag from "./ExampleTag/ExampleTag";
 import Box from "./Box/Box";
 import data from './api.json';
 import {resolveTag} from "./resolve";
+import Volume from "./Svg/Volume";
 
 export default class MainPage extends React.Component{
 
 
     render(){
         const audio = data.audio;
-
         return (
             <div className={css.root}>
                 <div className={css.content}>
-                    <img src="images/banner.png" alt="banner" className={css.banner}/>
+                    <img src="https://s1.hostingkartinok.com/uploads/images/2022/03/24e1f4db175919e812107974105a0e78.png" alt="banner" className={css.banner}/>
                     {
                         data.tags.map( (item) => {
                             switch(item.layout){
@@ -52,8 +52,8 @@ export default class MainPage extends React.Component{
                             }
                         })
                     }
-                    <ExampleTag pic={'images/Volume.svg'} title={'Sit pellentesque pulvinar'} text={'At vulputate nisi, et velit. Justo fringilla eget elit, facilisis ultrices mattis in quis aliquet. Massa ornare ultrices urna nisl ut sapien integer. Sit pellentesque pulvinar facilisi erat ridiculus purus porta scelerisque. Volutpat donec sed mattis ut tristique quis sit.'} />
-                    <ExampleTag pic={'images/Lamp.svg'} title={'Lacus tempor mattis diam'} text={'Sociis neque amet morbi nunc. Dictum malesuada id morbi amet nullam sapien, neque, id rhoncus. Sit ornare hac nunc erat massa augue ornare donec. Scelerisque in aenean ut phasellus nisi quis diam sed. Ultrices volutpat, donec ac id eros metus nisl aenean.'} />
+                    <ExampleTag class={"volume"} title={'Sit pellentesque pulvinar'} text={'At vulputate nisi, et velit. Justo fringilla eget elit, facilisis ultrices mattis in quis aliquet. Massa ornare ultrices urna nisl ut sapien integer. Sit pellentesque pulvinar facilisi erat ridiculus purus porta scelerisque. Volutpat donec sed mattis ut tristique quis sit.'} />
+                    <ExampleTag class={"lamp"} title={'Lacus tempor mattis diam'} text={'Sociis neque amet morbi nunc. Dictum malesuada id morbi amet nullam sapien, neque, id rhoncus. Sit ornare hac nunc erat massa augue ornare donec. Scelerisque in aenean ut phasellus nisi quis diam sed. Ultrices volutpat, donec ac id eros metus nisl aenean.'} />
                 </div>
             </div>
         )
