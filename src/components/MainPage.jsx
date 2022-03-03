@@ -24,14 +24,14 @@ export default class MainPage extends React.Component{
                             switch(item.layout){
                                 case "custom": return(
                                     <div>
-                                        <Slider string={item.data.image} />
+                                        <Slider string={item.data.image}   />
                                         <audio
                                             controls
                                             src={audio}>
                                             Your browser does not support the
                                             <code>audio</code> element.
                                         </audio>
-                                        <Box />
+                                        <Box title={item.data.title} text={item.data.text} btn={item.data.btn} url={item.data.url} />
                                     </div>
                                 );
                                 case "label": return (

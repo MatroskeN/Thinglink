@@ -14,17 +14,17 @@
                 "nubbin": "08generaldotorangesvg",
                 "layout": "custom",
                 "data": {
-                    "title": "",
-                    "text": "",
-                    "cta": "",
-                    "url": "",
-                    "image": "https://s1.hostingkartinok.com/uploads/images/2022/03/2afb8b0d2cf0c29da97d0ea69c2a99df.png |https://s1.hostingkartinok.com/uploads/images/2022/03/2afb8b0d2cf0c29da97d0ea69c2a99df.png"
+                    "title" : "Niagara Falls",
+                    "text" : "Niagara Falls is a group of three waterfalls at the southern end of Niagara Gorge, spanning the border between the province of Ontario in Canada and the state of New York in the United States. The largest of the three is Horseshoe Falls, also known as the Canadian Falls, which straddles the international border of the two countries. The smaller American Falls and Bridal Veil Falls lie within the United States. Bridal Veil Falls is separated from Horseshoe Falls by Goat Island and from American Falls by Luna Island, with both islands situated in New York.",
+                    "url" : "https://en.wikipedia.org/wiki/Niagara_Falls",
+                    "btn" : "Read more",
+                    "image": "https://s3-eu-west-1.amazonaws.com/s1.thingpic.com/content/YL/5dHy37j8UFLkbKTBs8B2KzUa.jpg|https://s3-eu-west-1.amazonaws.com/s1.thingpic.com/content/ge/iL93hP3vHfQq8goR6fDHCREg.jpg|https://s3-eu-west-1.amazonaws.com/s1.thingpic.com/content/Rd/WUnKFFFYug2hBq8YW51fVsRb.jpg"
                 }
             },
             {
                 "layout": "label",
                 "data": {
-                    "text": "Hey, you, out there, in the cold"
+                    "text": "Hello world"
                 }
             },
             {
