@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a7fdd70-d567-42cd-b2ed-8b86b0c65187" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/api2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Box/Box.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Box/Box.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/api.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/api.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/api2.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,8 @@
       <workItem from="1646164965600" duration="5427000" />
       <workItem from="1646221763916" duration="7387000" />
       <workItem from="1646229238701" duration="3772000" />
-      <workItem from="1646314092169" duration="1112000" />
+      <workItem from="1646314092169" duration="1631000" />
+      <workItem from="1646325245515" duration="1825000" />
     </task>
     <servers />
   </component>
@@ -85,5 +85,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -6,21 +6,18 @@ import TransitionTag from "./TransitionTag/TransitionTag";
 import EmbedTag from "./EmbedTag/EmbedTag";
 import ExampleTag from "./ExampleTag/ExampleTag";
 import Box from "./Box/Box";
-import data from './api.json';
 import {resolveTag} from "./resolve";
-import Volume from "./Svg/Volume";
 
 export default class MainPage extends React.Component{
 
-
     render(){
-        const audio = data.audio;
+        const audio = window.INITIAL_STATE.audio;
         return (
             <div className={css.root}>
                 <div className={css.content}>
                     <img src="https://s1.hostingkartinok.com/uploads/images/2022/03/24e1f4db175919e812107974105a0e78.png" alt="banner" className={css.banner}/>
                     {
-                        data.tags.map( (item) => {
+                        window.INITIAL_STATE.tags.map( (item) => {
                             switch(item.layout){
                                 case "custom": return(
                                     <div>
