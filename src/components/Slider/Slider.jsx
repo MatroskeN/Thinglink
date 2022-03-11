@@ -7,10 +7,10 @@ function Slider(props){
     return (
         <div className={css.root}>
             <div className={css.title}>
-                My Interactive Image (Scene name)
+                {props.title}
             </div>
             <div className={css.subtitle}>
-                Jenny Wilson (author)
+                {props.name}
             </div>
             <div className={css.tag}>
                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
