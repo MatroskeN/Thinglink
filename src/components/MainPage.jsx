@@ -19,7 +19,7 @@ export default class MainPage extends React.Component {
         function Banner(){
             if(banner){
                 return(
-                    <img src="https://s1.hostingkartinok.com/uploads/images/2022/03/24e1f4db175919e812107974105a0e78.png" className={css.banner} alt="banner"/>
+                    <img src={banner} className={css.banner} alt="banner"/>
                 )
             } else{
                 return (
