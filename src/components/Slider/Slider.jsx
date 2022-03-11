@@ -4,6 +4,15 @@ import 'swiper/swiper-bundle.min.css'
 import 'swiper/swiper.min.css'
 
 function Slider(props){
+
+    const slides = props.string.replace(' ', '').split('|');
+    function Arrows(){
+        if(slides.length <= 1){
+            document.querySelector('.swiper-button-next').style.display = "none";
+            document.querySelector('.swiper-button-prev').style.display = "none";
+        }
+    }
+
     return (
         <div className={css.root}>
             <div className={css.title}>
@@ -30,7 +39,7 @@ function Slider(props){
                     <SwiperSlide className={css.slide}>
                         <img src={item} alt="pic"/>
                     </SwiperSlide>
-                ))}
+                ))} {Arrows()}
             </Swiper>
         </div>
     )

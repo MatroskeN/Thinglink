@@ -55,14 +55,25 @@ export default class MainPage extends React.Component {
                         window.INITIAL_STATE.tags.map((item) => {
                             switch (item.layout) {
                                 case "custom":
-                                    return (
-                                        <div>
-                                            <Slider string={item.data.image} name={name} title={title}/>
-                                            {Audio()}
-                                            <Box title={item.data.title} text={item.data.text} btn={item.data.btn}
-                                                 url={item.data.url}/>
-                                        </div>
-                                    );
+                                    if (item.data.image){
+                                        return (
+                                            <div>
+                                                <Slider string={item.data.image} name={name} title={title}/>
+                                                {Audio()}
+                                                <Box title={item.data.title} text={item.data.text} btn={item.data.btn}
+                                                     url={item.data.url}/>
+                                            </div>
+                                        )
+                                    } else {
+                                        return (
+                                            <div>
+                                                {Audio()}
+                                                <Box title={item.data.title} text={item.data.text} btn={item.data.btn}
+                                                     url={item.data.url}/>
+                                            </div>
+                                        )
+                                    }
+
                                 case "label":
                                     if (item.data.text){
                                         return (

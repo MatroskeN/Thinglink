@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a7fdd70-d567-42cd-b2ed-8b86b0c65187" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Box/Box.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Box/Box.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EmbedTag/EmbedTag.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EmbedTag/EmbedTag.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +69,7 @@
       <workItem from="1646325245515" duration="3632000" />
       <workItem from="1646410313113" duration="2386000" />
       <workItem from="1646916770744" duration="1615000" />
-      <workItem from="1647010436652" duration="2395000" />
+      <workItem from="1647010436652" duration="3546000" />
     </task>
     <servers />
   </component>
